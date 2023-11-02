@@ -18,6 +18,8 @@ public class Person extends PanacheMongoEntity {
 
     public Status status;
 
+    public Height height;
+
     // return name as lowercase in the model
     public String getName() {
         return name.toLowerCase();
